@@ -38,7 +38,7 @@ export const PROJECTS = [
       "Developed a dynamic movie browsing and recommendation platform for an engaging user interface and seamless navigation.Integrated data management with Redux Toolkit to streamline state handling and improve performance.Leveraged the TMDB API to fetch data and the Gemini API to provide movie recommendations based on user descriptions",
     technologies: ["React", "Redux Toolkit", "Firebase", "Gemini API"],
     source: "https://github.com/ProtoShiva/Netflix-gemini",
-    live: "https://netflix-gemini.onrender.com",
+    live: "https://netflix-gemini-a97f3.web.app/",
   },
   {
     title: "Task Management App",
