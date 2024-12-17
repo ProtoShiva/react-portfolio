@@ -37,9 +37,14 @@ const Experience = () => {
                 {exp.role} -{" "}
                 <span className="text-sm text-purple-100">{exp.company}</span>
               </h6>
-              <a className="text-blue-600" href={intern} download>
-                certificate
-              </a>
+              {exp.role === "Frontend Developer" ? (
+                ""
+              ) : (
+                <a className="text-blue-600" href={intern} download>
+                  certificate
+                </a>
+              )}
+
               <p className="mb-4 text-neutral-600 dark:text-neutral-400">
                 {exp.description}
               </p>

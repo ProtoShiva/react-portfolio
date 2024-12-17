@@ -5,7 +5,7 @@ import logo3 from "../assets/image3.png"
 import { FaLinkedin } from "react-icons/fa"
 import { FaGithub } from "react-icons/fa"
 import { IoMoon } from "react-icons/io5"
-import { FaInstagram } from "react-icons/fa"
+import { SiLeetcode } from "react-icons/si"
 import { FaSquareXTwitter } from "react-icons/fa6"
 import { GoSun } from "react-icons/go"
 import { useTheme } from "../hooks"
@@ -84,6 +84,10 @@ const Navbar = () => {
             <IoMoon className="dark:text-white" />
           )}
         </div>
+        <a href="https://leetcode.com/u/HimanshuGusain/" target="_blank">
+          <SiLeetcode className="transition duration-300 transform hover:scale-125 cursor-pointer  hover:text-orange-500 dark:text-white text-black" />
+        </a>
+
         <a
           href="https://www.linkedin.com/in/himanshu-gusain-b308b5312/"
           target="_blank"
@@ -93,10 +97,6 @@ const Navbar = () => {
 
         <a href="https://github.com/ProtoShiva" target="_blank">
           <FaGithub className="transition duration-300 transform hover:scale-125 cursor-pointer dark:text-white text-black" />
-        </a>
-        <a href="https://www.instagram.com/professor9084/" target="_blank">
-          {" "}
-          <FaInstagram className="transition duration-300 transform hover:scale-125 cursor-pointer  hover:text-pink-600 dark:text-white text-black" />
         </a>
         <a href="https://twitter.com/HimanshuGusain8" target="_blank">
           {" "}

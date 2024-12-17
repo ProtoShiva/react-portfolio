@@ -13,6 +13,21 @@ export const EXPERIENCES = [
     description: `Gained hands-on experience with the MERN stack by working on industry-standard projects. Collaborating with a UX/UI designer who provided designs in Figma, I brought these designs to life through code. This challenging process significantly enhanced my skills, particularly in creating bug-free, robust applications. Each project was rigorously evaluated, and I successfully passed by delivering high-quality work, demonstrating my readiness for a Junior Full Stack Engineer role.`,
     technologies: ["MongoDB", "Express", "React.js", "Node.js"],
   },
+  {
+    year: "July 2024 - Sept 2024",
+    role: "Frontend Developer",
+    company: "AK Software Solutions",
+    description: `Contributed to existing Next.js and JavaScript codebases to complete projects efficiently. Collaborated closely with graphic designers and worked with backend developers to integrate APIs seamlessly. Assisted in building and maintaining a college management system, contributing to CSS development and bug fixes.
+`,
+    technologies: [
+      "Javascript",
+      "NextJs",
+      "CSS",
+      "Express",
+      "React.js",
+      "Node.js",
+    ],
+  },
 ]
 
 export const PROJECTS = [
