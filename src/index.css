@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Roboto", sans-serif;
+}
+
+.no-select {
+  user-select: none;
+}
+
+
+
+@keyframes slide{
+  from{
+transform:translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .your-class {
+    display: none;
+  }
+}
+
+
+
